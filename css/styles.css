@@ -1,0 +1,36 @@
+/* ------------------------------------general */
+body {
+    margin: 0;
+    font-family: 'Arial','Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+/* ------------------------------------header */
+
+header {
+    margin-top: 12px;
+    color: rgb(70, 70, 70);
+}
+
+.top-right-nav {
+    display: flex;
+    margin: 0 1%;
+    padding: 0;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-right-nav li {
+    padding-right: 1.2em;
+}
+
+.my-profile-img img {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 100%;
+}
