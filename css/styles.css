@@ -6,6 +6,10 @@ body {
     font-size: 13px;
 }
 
+p {
+    margin: 0;
+}
+
 
 
 /* ------------------------------------header */
@@ -33,4 +37,19 @@ header {
     width: 35px;
     object-fit: cover;
     border-radius: 100%;
+}
+
+/*------------------------------------- footer */
+
+footer {
+    background-color: #f2f2f2;
+    color: #949494;
+}
+
+.country {
+    height: 20px;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
 }
