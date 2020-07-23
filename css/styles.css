@@ -40,3 +40,15 @@ header {
 .main {
    
 }
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 34vh;
+    padding-bottom: 5vh;
+}
+
+.google-logo img {
+    height: 90px;
+}
