@@ -52,3 +52,38 @@ header {
 .google-logo img {
     height: 90px;
 }
+
+.search-bar {
+    margin: 0 auto;
+    display: flex;
+    width: 45vw;
+    height: 42px;
+    border: 1px solid lightgray;
+    border-radius: 42px;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 0 0 0 grey; */
+}
+
+.lens {
+    padding: 0 15px;
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.micro {
+    padding-right: 15px;
+    color: grey;
+    font-size: 1rem;
+}
+
+.search-bar input {
+    border: none;
+    height: 30px;
+    font-size: 1.1rem;
+    width: auto;
+}
+
+.main-buttons {
+    display: flex;
+}
