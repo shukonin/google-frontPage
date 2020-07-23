@@ -81,9 +81,19 @@ header {
     border: none;
     height: 30px;
     font-size: 1.1rem;
-    width: auto;
+    width: 38vw;
 }
 
 .main-buttons {
     display: flex;
+    justify-content: center;
+
+}
+
+.front-button {
+    margin: 40px 5px 0 5px;
+    padding: 10px 15px;
+    background: lightgrey;
+    font-size: 0.9rem;
+    border-radius: 5px;
 }
