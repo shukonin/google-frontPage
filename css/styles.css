@@ -6,6 +6,19 @@ body {
     font-size: 13px;
 }
 
+p {
+    margin: 0;
+}
+
+.text-anchor {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.text-anchor:hover {
+    text-decoration: underline;
+}
+
 
 
 /* ------------------------------------header */
@@ -35,11 +48,12 @@ header {
     border-radius: 100%;
 }
 
+.icon-menu {
+    font-size: 1rem;
+}
+
 /* -------------------------------------main */
 
-.main {
-   
-}
 
 .google-logo {
     display: flex;
@@ -62,7 +76,10 @@ header {
     border-radius: 42px;
     align-items: center;
     justify-content: space-between;
-    /* box-shadow: 0 0 0 grey; */
+}
+
+.search-bar:hover {
+    box-shadow: 1px 1px 5px 0px lightgrey;
 }
 
 .lens {
@@ -84,16 +101,71 @@ header {
     width: 38vw;
 }
 
+input:focus {
+    outline: none;
+}
+
 .main-buttons {
     display: flex;
     justify-content: center;
-
+    padding-bottom: 100px;
 }
 
 .front-button {
     margin: 40px 5px 0 5px;
     padding: 10px 15px;
-    background: lightgrey;
-    font-size: 0.9rem;
+    background: #f2f2f2;
+    font-size: 0.85rem;
     border-radius: 5px;
+    color: #6e6e6e;
+}
+
+.front-button:hover {
+   cursor: pointer;
+   border: 1px solid #949494;
+   padding: 8px 15px;
+   color: black;
+   box-shadow: 1px 1px 5px 0px rgb(235, 235, 235);
+}
+
+/*------------------------------------- footer */
+
+footer {
+    background-color: #e7e6e6;
+    color: #949494;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.country {
+    height: 20px;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: space-between;
+    /* border-top: 1px solid #d8d8d8; */
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.footer-options ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    padding: 10px 25px;
+}
+
+.left-footer-options li {
+    padding-right: 25px;
+}
+
+.right-footer-options li {
+    padding-left: 25px;
 }
