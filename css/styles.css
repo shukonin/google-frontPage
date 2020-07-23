@@ -10,6 +10,15 @@ p {
     margin: 0;
 }
 
+.text-anchor {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+.text-anchor:hover {
+    text-decoration: underline;
+}
+
 
 
 /* ------------------------------------header */
@@ -52,4 +61,28 @@ footer {
     font-size: 15px;
     border-top: 1px solid #d8d8d8;
     border-bottom: 1px solid #d8d8d8;
+}
+
+.footer-options {
+    display: flex;
+    justify-content: space-between;
+    /* border-top: 1px solid #d8d8d8; */
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.footer-options ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    padding: 10px 25px;
+}
+
+.left-footer-options li {
+    padding-right: 25px;
+}
+
+.right-footer-options li {
+    padding-left: 25px;
 }
