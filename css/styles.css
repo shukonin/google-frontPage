@@ -94,6 +94,10 @@ header {
     font-size: 1rem;
 }
 
+.micro:hover {
+    cursor: pointer;
+}
+
 .search-bar input {
     border: none;
     height: 30px;
